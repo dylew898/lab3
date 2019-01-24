@@ -9,6 +9,7 @@ var path = require('path');
 var handlebars = require('express3-handlebars')
 
 var hello = require('./routes/hello');
+var world = require('./routes/hello');
 
 var app = express();
 
